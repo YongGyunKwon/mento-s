@@ -4,14 +4,16 @@
             "파고, 유속, 유향, 해무 정보",
             "조위, 수온, 기온, 풍량, 풍속 정보",
             "실시간 해양 관광 정보",
-            "서핑"
+            "서핑",
+            "출항 정보"
         ],
         MAIN_DATA_IMAGE = [ 
             "./image/fish3.svg",
             "./image/wave.svg",
             "./image/wind.svg",
             "./image/travel2.svg",
-            "./image/surfing3.svg"
+            "./image/surfing3.svg",
+            "./image/ship.svg"
         ],
         HEADER_DATA = {
             "NONE": {
@@ -52,6 +54,8 @@
             	location.href = "info2.html";
             }else if(data == 3){
             	location.href = "trip.html";
+            }else if(data == 5){
+            	location.href = "info3.html";
             }
         };
     }
